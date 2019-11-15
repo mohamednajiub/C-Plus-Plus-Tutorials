@@ -1,5 +1,7 @@
 #include <iostream>
 int main(){
-    std::cout << "Hello World\n";
+    int slices = 8;
+    std::cout << slices; 
+    std::cout << "\n";
     return 0;
 }
