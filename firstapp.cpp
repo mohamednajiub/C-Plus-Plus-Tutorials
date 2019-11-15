@@ -1,7 +1,6 @@
 #include <iostream>
 int main(){
     int slices = 8;
-    std::cout << slices; 
-    std::cout << "\n";
-    return 0;
+    std::cout << "You have " << slices << " slices of pizza." << std::endl;
+    printf("%i\n", slices);
 }
